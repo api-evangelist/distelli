@@ -1,7 +1,31 @@
 aid: distelli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/distelli.png
 name: Distelli
-description: Distelli is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Distelli was a Seattle-based DevOps and application-deployment company founded
+  in 2013 by Rahul Singh and backed by Andreessen Horowitz (a16z). It offered a
+  SaaS platform and command-line tooling for building, deploying, and managing
+  applications across servers and cloud infrastructure, later adding a Docker
+  container pipeline and a Kubernetes (K8s) dashboard for managing container
+  clusters. Puppet acquired Distelli in September 2017 and rebranded its
+  products — the VM/CI-CD dashboard became Puppet Pipelines for Applications and
+  the Kubernetes dashboard became Puppet Pipelines for Containers. The
+  standalone Distelli company, product, and API no longer operate: the
+  distelli.com domain is parked and the Distelli GitHub organization is archived
+  and explicitly "no longer supported nor actively maintained." This profile is
+  retained as a historical portfolio-company record (a16z) in the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/distelli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,36 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Puppet in September 2017; products rebranded as Puppet Pipelines. Standalone company, product, and API discontinued.
+x-acquired-by: Puppet
+x-acquired-date: '2017-09'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- DevOps
+- Deployment
+- Continuous Delivery
+- Containers
+- Kubernetes
+- Docker
+- CI/CD
+- Defunct
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  name: Distelli on GitHub (archived)
+  url: https://github.com/Distelli
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
