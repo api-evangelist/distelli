@@ -37,7 +37,7 @@ x-status: defunct
 x-status-detail: Acquired by Puppet in September 2017; products rebranded as Puppet Pipelines. Standalone company, product, and API discontinued.
 x-acquired-by: Puppet
 x-acquired-date: '2017-09'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
